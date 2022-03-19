@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
 hehuoya published the library, it's an awesome library
                        DESC
 
-  s.homepage         = 'https://github.com/lich7/YABase'
+  s.homepage         = 'https://gitee.com/changhong1_admin/YABase.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lich7' => 'lich7@ziroom.com' }
-  s.source           = { :git => 'https://github.com/lich7/YABase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/changhong1_admin/YABase.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'YABase/Classes/**/*'
