@@ -1,0 +1,23 @@
+{
+  "name": "YABase",
+  "version": "0.1.0",
+  "summary": "YABase is a base ios library.",
+  "description": "hehuoya published the library, it's an awesome library",
+  "homepage": "https://github.com/lich7/YABase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lich7": "lich7@ziroom.com"
+  },
+  "source": {
+    "git": "https://github.com/lich7/YABase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YABase/Classes/**/*",
+  "public_header_files": "YABase/Classes/YABase.h"
+}
