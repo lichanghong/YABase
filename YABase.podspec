@@ -16,5 +16,5 @@ hehuoya published the library, it's an awesome library
 
   s.source_files = 'YABase/Classes/**/*'
  
-  s.public_header_files = 'YABase/Classes/YABase.h'
+  s.public_header_files = 'YABase/Classes/**/*.h'
 end
