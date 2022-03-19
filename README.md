@@ -2,7 +2,7 @@
 
 ## YAColor 颜色管理
 gitee源码地址：https://gitee.com/changhong1_admin/YABase.git
-github源码地址：
+github源码地址：https://github.com/lichanghong/YABase.git
 
 客户端开发应该有颜色规范，定义颜色的大众做法是使用宏定义，然而宏定义虽简单但存在很多问题；
 比如宏定义在混编环境下不通用、宏定义重复、预编译条件判断导致故障性问题，再就是可读性差。 
@@ -26,6 +26,14 @@ UIColor *YARandomColor(void);
 UIColor *YARGB(CGFloat r,CGFloat g,CGFloat b);
 UIColor *YAColorForHex(NSString *hexColor, CGFloat alpha);
 
+## swift & OC使用方式
+统一使用方式如下：
+//        self.view.backgroundColor = YA333333();
+//        self.view.backgroundColor = YARedColor();
+//        self.view.backgroundColor = YAColorForHex("334444", 1);
+//        self.view.backgroundColor = YAColorForHex("#334444", 1);
+//        self.view.backgroundColor = YARGB(255, 0, 0);
+
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -42,7 +50,8 @@ pod 'YABase'
 
 ## Author
 
-lich7, lich7@ziroom.com
+李长鸿, 1211054926@qq.com
+合伙鸭 - hehuoya.com
 
 ## License
 
