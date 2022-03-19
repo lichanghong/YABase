@@ -8,6 +8,6 @@
 #ifndef YABase_h
 #define YABase_h
 
-import "YAColor.h"
+#import "YAColor.h"
 
 #endif /* YABase_h */
