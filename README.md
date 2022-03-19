@@ -1,9 +1,10 @@
-# YABase 合伙鸭 hehuoya.com，鸭基础
+# iOS开发基础库-颜色库最佳实践
+YABase 合伙鸭 hehuoya.com，鸭基础
+
+## YABase 基础库
+YABase是非常好用的iOS基础库，包含一些规范的基础类，而且支持混编！YAColor就是YABase组件基础库中的其中之一
 
 ## YAColor 颜色管理
-gitee源码地址：https://gitee.com/changhong1_admin/YABase.git
-github源码地址：https://github.com/lichanghong/YABase.git
-
 客户端开发应该有颜色规范，定义颜色的大众做法是使用宏定义，然而宏定义虽简单但存在很多问题；
 比如宏定义在混编环境下不通用、宏定义重复、预编译条件判断导致故障性问题，再就是可读性差。 
 因此YAColor摒弃了宏定义的做法，使用了C函数形式，这样无论是单语句定义还是需要方法处理，都可以很方便的去实现
@@ -47,6 +48,12 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'YABase'
 ```
+
+podfile中要添加私有库地址：source 'https://gitee.com/hehuoya/hhy.git'
+源码下载地址：
+gitee源码地址：https://gitee.com/changhong1_admin/YABase.git
+github源码地址：https://github.com/lichanghong/YABase.git 》 master分支
+
 
 ## Author
 
